@@ -1,0 +1,21 @@
+{
+    "name": "chabibnr/yii2-sweetalert",
+    "description": "Sweet Alert",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","sweetalert"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chabib Nurozak",
+            "email": "chabibdev@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "chabibnr\\sweetalert\\": "src"
+        }
+    }
+}
