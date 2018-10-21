@@ -15,7 +15,7 @@ class SweetAlert extends Widget {
     const ICON_INFO = 'info';
 
     public function run(){
-        $flashDataAlert = Yii::$app->getSession()->getFlash(static::ALERT_KEY);
+        $flashDataAlert = Yii::$app->getSession()->getFlash(static::ALERT_KEY,[]);
         if(count($flashDataAlert) > 0){
             $body = $flashDataAlert['body'];
             $type = $flashDataAlert['type'];
